@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #c6c0f1;
+}
+
+.main{
+    margin: 50px auto;
+    width: 800px;
+    text-align: center;
+}
+
+.main-a{
+    padding: 80px;
+}
+
+.card1{
+    width: 450px;
+    margin: 10px  auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.card1-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card1-h{
+    margin: 0px;
+}
+
+.card1-p{
+    margin-top: 6px;
+    font-size: 18px;
+    color: rgb(110, 105, 105);
+}
+
+.card1-mail{
+    color: black;
+}
+
+.card1-input{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    width: 75%;
+    border: 2px solid rgb(91, 86, 86);
+    border-radius: 10px;
+}
+
+.card1-btn{
+    margin: 30px auto;
+    width: 75%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #5D4AF6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.card2{
+    width: 400px;
+    margin: 10px  auto;
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.card2-h{
+    margin: 0px;
+}
+
+.card2-p{
+    margin-top: 5px;
+    font-size: 19px;
+    color: rgb(110, 105, 105);
+}
+
+.card2-link{
+    text-align: start;
+    padding: 15px;
+    margin: 10px;
+}
+
+.card2-a{
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.card2-text{
+    font-size: 15px;
+    margin: 10px 39px;
+    color: rgb(143, 143, 143);
+}
+
+.card3{
+    width: 450px;
+    margin: 10px  auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+
+.card3-img{
+    margin-top: 100px;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.card3-h{
+    margin: 0px;
+}
+
+.card3-p{
+    margin: 6px 78px 40px 78px;
+    font-size: 15px;
+    color: rgb(110, 105, 105);
+}
+
+.card3-card-details{
+    border: 2px solid rgb(183, 167, 167);
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 12px;
+}
+
+.card3-card-input{
+   border: none;
+   font-size: 16px;
+   padding: 12px;
+   width: 40%;
+}
+
+.card3-input-month{
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 20%;
+    border: none;
+
+}
+
+.card3-input-cvv{
+    font-size: 16px;
+    padding: 10px 5px;
+    width: 14%;
+    border: none;
+
+}
+
+.card3-btn{
+    margin: 30px auto;
+    width: 75%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #5D4AF6;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.secure{    
+    padding-bottom: 30px;
+}
+
+.secure-a{
+    
+    font-size: 17px;
+    color: #484848;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.card3-form{
+    text-align: start;
+    margin: 2px 70px 5px 70px;
+}
+
+.card3-label{
+    font-size: 17px;
+    color: rgb(104, 97, 97);
+}
+
+.card3-input{
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(146, 141, 141);
+}

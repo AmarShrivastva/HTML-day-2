@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card-3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="card3">
+      <img src="cards.png" class="card3-img" alt="credit card image" />
+      <h2 class="card1-h">Card details</h2>
+      <p class="card3-p">
+        Enter your card details to kick-start your free trial. Don't worry, you
+        won't be charged a dime untill your free trial ends in
+        <span class="card1-mail">7 days.</span>
+      </p>
+
+      <div class="card3-card-details">
+        <img
+          src="card-icon.svg"
+          width="20px"
+          alt="card icon"
+          class="card-icon"
+        />
+        <input
+          type="number"
+          class="card3-card-input"
+          placeholder="Card Number"
+          minlength="16"
+          maxlength="16"
+        />
+        <input type="number" placeholder="MM/YY" class="card3-input-month" />
+        <input type="number" placeholder="CVV" class="card3-input-cvv" />
+      </div>
+
+      <button class="card3-btn">Start your 7-day free trial</button>
+
+      <div class="secure">
+        <img
+          src="secure.svg"
+          alt="Security icon"
+          class="secure-img"
+          width="15px"
+        /><a href="" class="secure-a">Secure and encrypted</a>
+      </div>
+    </div>
+
+    <div class="card3">
+      <img
+        class="card3-img"
+        width="100"
+        height="100"
+        src="https://img.icons8.com/plasticine/100/company.png"
+        alt="company"
+      />
+      <h2 class="card1-h">Your comapny</h2>
+      <p class="card3-p">
+        Tell us about your comapny. You will be able to invite your teammates in
+        the next step.
+      </p>
+
+      <div class="card3-form">
+        <label for="company-name" class="card3-label">Company name</label>
+        <input type="text" class="card3-input" placeholder="Company name" /><br><br>
+        <label for="industry" class="card3-label">Industry (optional)</label>
+        <input type="text" class="card3-input" placeholder="Industry type" /><br><br>
+        <label for="your-role" class="card3-label">Your Role (optional)</label>
+        <select name="your-role" id="" class="card3-input">
+          <option value="ceo">Owner/Founder/CEO</option>
+          <option value="manager">Manager/Project Lead</option>
+          <option value="associate">Associate</option>
+        </select><br><br>
+        <label for="company-size" class="card3-label">Company Size</label>
+        <select name="company-size" id="" class="card3-input">
+          <option value="2-10">2-10</option>
+          <option value="11-30">11-30</option>
+          <option value="31-100">31-100</option>
+        </select><br><br>
+      </div>
+    </div>
+  </body>
+</html>
